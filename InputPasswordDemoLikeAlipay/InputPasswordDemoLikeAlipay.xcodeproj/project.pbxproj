@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E43DA3C1BBA87B400D64D6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E43DA3B1BBA87B400D64D6A /* main.m */; };
+		9E43DA3F1BBA87B400D64D6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E43DA3E1BBA87B400D64D6A /* AppDelegate.m */; };
+		9E43DA421BBA87B400D64D6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E43DA411BBA87B400D64D6A /* ViewController.m */; };
+		9E43DA451BBA87B400D64D6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E43DA431BBA87B400D64D6A /* Main.storyboard */; };
+		9E43DA471BBA87B400D64D6A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E43DA461BBA87B400D64D6A /* Images.xcassets */; };
+		9E43DA4A1BBA87B400D64D6A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E43DA481BBA87B400D64D6A /* LaunchScreen.xib */; };
+		9E43DA561BBA87B400D64D6A /* InputPasswordDemoLikeAlipayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E43DA551BBA87B400D64D6A /* InputPasswordDemoLikeAlipayTests.m */; };
+		9E43DA6C1BBA87E500D64D6A /* MTFPaymentEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E43DA611BBA87E500D64D6A /* MTFPaymentEmptyView.m */; };
+		9E43DA6D1BBA87E500D64D6A /* MTFPaymentEmptyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E43DA621BBA87E500D64D6A /* MTFPaymentEmptyView.xib */; };
+		9E43DA6E1BBA87E500D64D6A /* MTFPaymentEmptyViewForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E43DA641BBA87E500D64D6A /* MTFPaymentEmptyViewForm.m */; };
+		9E43DA6F1BBA87E500D64D6A /* ZSDPaymentForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E43DA661BBA87E500D64D6A /* ZSDPaymentForm.m */; };
+		9E43DA701BBA87E500D64D6A /* ZSDPaymentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E43DA681BBA87E500D64D6A /* ZSDPaymentView.m */; };
+		9E43DA711BBA87E500D64D6A /* ZSDPaymentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E43DA691BBA87E500D64D6A /* ZSDPaymentView.xib */; };
+		9E43DA721BBA87E500D64D6A /* ZSDSetPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E43DA6B1BBA87E500D64D6A /* ZSDSetPasswordView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E43DA501BBA87B400D64D6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E43DA2E1BBA87B400D64D6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E43DA351BBA87B400D64D6A;
+			remoteInfo = InputPasswordDemoLikeAlipay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9E43DA361BBA87B400D64D6A /* InputPasswordDemoLikeAlipay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InputPasswordDemoLikeAlipay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E43DA3A1BBA87B400D64D6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E43DA3B1BBA87B400D64D6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9E43DA3D1BBA87B400D64D6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9E43DA3E1BBA87B400D64D6A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9E43DA401BBA87B400D64D6A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9E43DA411BBA87B400D64D6A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9E43DA441BBA87B400D64D6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9E43DA461BBA87B400D64D6A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9E43DA491BBA87B400D64D6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9E43DA4F1BBA87B400D64D6A /* InputPasswordDemoLikeAlipayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InputPasswordDemoLikeAlipayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E43DA541BBA87B400D64D6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E43DA551BBA87B400D64D6A /* InputPasswordDemoLikeAlipayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputPasswordDemoLikeAlipayTests.m; sourceTree = "<group>"; };
+		9E43DA601BBA87E500D64D6A /* MTFPaymentEmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTFPaymentEmptyView.h; sourceTree = "<group>"; };
+		9E43DA611BBA87E500D64D6A /* MTFPaymentEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTFPaymentEmptyView.m; sourceTree = "<group>"; };
+		9E43DA621BBA87E500D64D6A /* MTFPaymentEmptyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTFPaymentEmptyView.xib; sourceTree = "<group>"; };
+		9E43DA631BBA87E500D64D6A /* MTFPaymentEmptyViewForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTFPaymentEmptyViewForm.h; sourceTree = "<group>"; };
+		9E43DA641BBA87E500D64D6A /* MTFPaymentEmptyViewForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTFPaymentEmptyViewForm.m; sourceTree = "<group>"; };
+		9E43DA651BBA87E500D64D6A /* ZSDPaymentForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSDPaymentForm.h; sourceTree = "<group>"; };
+		9E43DA661BBA87E500D64D6A /* ZSDPaymentForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSDPaymentForm.m; sourceTree = "<group>"; };
+		9E43DA671BBA87E500D64D6A /* ZSDPaymentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSDPaymentView.h; sourceTree = "<group>"; };
+		9E43DA681BBA87E500D64D6A /* ZSDPaymentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSDPaymentView.m; sourceTree = "<group>"; };
+		9E43DA691BBA87E500D64D6A /* ZSDPaymentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZSDPaymentView.xib; sourceTree = "<group>"; };
+		9E43DA6A1BBA87E500D64D6A /* ZSDSetPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSDSetPasswordView.h; sourceTree = "<group>"; };
+		9E43DA6B1BBA87E500D64D6A /* ZSDSetPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSDSetPasswordView.m; sourceTree = "<group>"; };
+		9E43DA731BBA883900D64D6A /* common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E43DA331BBA87B400D64D6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E43DA4C1BBA87B400D64D6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E43DA2D1BBA87B400D64D6A = {
+			isa = PBXGroup;
+			children = (
+				9E43DA381BBA87B400D64D6A /* InputPasswordDemoLikeAlipay */,
+				9E43DA521BBA87B400D64D6A /* InputPasswordDemoLikeAlipayTests */,
+				9E43DA371BBA87B400D64D6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E43DA371BBA87B400D64D6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E43DA361BBA87B400D64D6A /* InputPasswordDemoLikeAlipay.app */,
+				9E43DA4F1BBA87B400D64D6A /* InputPasswordDemoLikeAlipayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E43DA381BBA87B400D64D6A /* InputPasswordDemoLikeAlipay */ = {
+			isa = PBXGroup;
+			children = (
+				9E43DA5F1BBA87E500D64D6A /* 支付密码输入界面 */,
+				9E43DA3D1BBA87B400D64D6A /* AppDelegate.h */,
+				9E43DA3E1BBA87B400D64D6A /* AppDelegate.m */,
+				9E43DA401BBA87B400D64D6A /* ViewController.h */,
+				9E43DA411BBA87B400D64D6A /* ViewController.m */,
+				9E43DA431BBA87B400D64D6A /* Main.storyboard */,
+				9E43DA461BBA87B400D64D6A /* Images.xcassets */,
+				9E43DA481BBA87B400D64D6A /* LaunchScreen.xib */,
+				9E43DA391BBA87B400D64D6A /* Supporting Files */,
+			);
+			path = InputPasswordDemoLikeAlipay;
+			sourceTree = "<group>";
+		};
+		9E43DA391BBA87B400D64D6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E43DA3A1BBA87B400D64D6A /* Info.plist */,
+				9E43DA3B1BBA87B400D64D6A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9E43DA521BBA87B400D64D6A /* InputPasswordDemoLikeAlipayTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E43DA551BBA87B400D64D6A /* InputPasswordDemoLikeAlipayTests.m */,
+				9E43DA531BBA87B400D64D6A /* Supporting Files */,
+			);
+			path = InputPasswordDemoLikeAlipayTests;
+			sourceTree = "<group>";
+		};
+		9E43DA531BBA87B400D64D6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E43DA541BBA87B400D64D6A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9E43DA5F1BBA87E500D64D6A /* 支付密码输入界面 */ = {
+			isa = PBXGroup;
+			children = (
+				9E43DA601BBA87E500D64D6A /* MTFPaymentEmptyView.h */,
+				9E43DA611BBA87E500D64D6A /* MTFPaymentEmptyView.m */,
+				9E43DA621BBA87E500D64D6A /* MTFPaymentEmptyView.xib */,
+				9E43DA631BBA87E500D64D6A /* MTFPaymentEmptyViewForm.h */,
+				9E43DA641BBA87E500D64D6A /* MTFPaymentEmptyViewForm.m */,
+				9E43DA651BBA87E500D64D6A /* ZSDPaymentForm.h */,
+				9E43DA661BBA87E500D64D6A /* ZSDPaymentForm.m */,
+				9E43DA671BBA87E500D64D6A /* ZSDPaymentView.h */,
+				9E43DA681BBA87E500D64D6A /* ZSDPaymentView.m */,
+				9E43DA691BBA87E500D64D6A /* ZSDPaymentView.xib */,
+				9E43DA6A1BBA87E500D64D6A /* ZSDSetPasswordView.h */,
+				9E43DA6B1BBA87E500D64D6A /* ZSDSetPasswordView.m */,
+				9E43DA731BBA883900D64D6A /* common.h */,
+			);
+			path = "支付密码输入界面";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E43DA351BBA87B400D64D6A /* InputPasswordDemoLikeAlipay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E43DA591BBA87B400D64D6A /* Build configuration list for PBXNativeTarget "InputPasswordDemoLikeAlipay" */;
+			buildPhases = (
+				9E43DA321BBA87B400D64D6A /* Sources */,
+				9E43DA331BBA87B400D64D6A /* Frameworks */,
+				9E43DA341BBA87B400D64D6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InputPasswordDemoLikeAlipay;
+			productName = InputPasswordDemoLikeAlipay;
+			productReference = 9E43DA361BBA87B400D64D6A /* InputPasswordDemoLikeAlipay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9E43DA4E1BBA87B400D64D6A /* InputPasswordDemoLikeAlipayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E43DA5C1BBA87B400D64D6A /* Build configuration list for PBXNativeTarget "InputPasswordDemoLikeAlipayTests" */;
+			buildPhases = (
+				9E43DA4B1BBA87B400D64D6A /* Sources */,
+				9E43DA4C1BBA87B400D64D6A /* Frameworks */,
+				9E43DA4D1BBA87B400D64D6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E43DA511BBA87B400D64D6A /* PBXTargetDependency */,
+			);
+			name = InputPasswordDemoLikeAlipayTests;
+			productName = InputPasswordDemoLikeAlipayTests;
+			productReference = 9E43DA4F1BBA87B400D64D6A /* InputPasswordDemoLikeAlipayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E43DA2E1BBA87B400D64D6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = GoodOffer;
+				TargetAttributes = {
+					9E43DA351BBA87B400D64D6A = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					9E43DA4E1BBA87B400D64D6A = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 9E43DA351BBA87B400D64D6A;
+					};
+				};
+			};
+			buildConfigurationList = 9E43DA311BBA87B400D64D6A /* Build configuration list for PBXProject "InputPasswordDemoLikeAlipay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E43DA2D1BBA87B400D64D6A;
+			productRefGroup = 9E43DA371BBA87B400D64D6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E43DA351BBA87B400D64D6A /* InputPasswordDemoLikeAlipay */,
+				9E43DA4E1BBA87B400D64D6A /* InputPasswordDemoLikeAlipayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E43DA341BBA87B400D64D6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E43DA451BBA87B400D64D6A /* Main.storyboard in Resources */,
+				9E43DA4A1BBA87B400D64D6A /* LaunchScreen.xib in Resources */,
+				9E43DA471BBA87B400D64D6A /* Images.xcassets in Resources */,
+				9E43DA6D1BBA87E500D64D6A /* MTFPaymentEmptyView.xib in Resources */,
+				9E43DA711BBA87E500D64D6A /* ZSDPaymentView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E43DA4D1BBA87B400D64D6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E43DA321BBA87B400D64D6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E43DA701BBA87E500D64D6A /* ZSDPaymentView.m in Sources */,
+				9E43DA6E1BBA87E500D64D6A /* MTFPaymentEmptyViewForm.m in Sources */,
+				9E43DA721BBA87E500D64D6A /* ZSDSetPasswordView.m in Sources */,
+				9E43DA421BBA87B400D64D6A /* ViewController.m in Sources */,
+				9E43DA6F1BBA87E500D64D6A /* ZSDPaymentForm.m in Sources */,
+				9E43DA3F1BBA87B400D64D6A /* AppDelegate.m in Sources */,
+				9E43DA3C1BBA87B400D64D6A /* main.m in Sources */,
+				9E43DA6C1BBA87E500D64D6A /* MTFPaymentEmptyView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E43DA4B1BBA87B400D64D6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E43DA561BBA87B400D64D6A /* InputPasswordDemoLikeAlipayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E43DA511BBA87B400D64D6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E43DA351BBA87B400D64D6A /* InputPasswordDemoLikeAlipay */;
+			targetProxy = 9E43DA501BBA87B400D64D6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9E43DA431BBA87B400D64D6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E43DA441BBA87B400D64D6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9E43DA481BBA87B400D64D6A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E43DA491BBA87B400D64D6A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E43DA571BBA87B400D64D6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9E43DA581BBA87B400D64D6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E43DA5A1BBA87B400D64D6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InputPasswordDemoLikeAlipay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9E43DA5B1BBA87B400D64D6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InputPasswordDemoLikeAlipay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9E43DA5D1BBA87B400D64D6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = InputPasswordDemoLikeAlipayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InputPasswordDemoLikeAlipay.app/InputPasswordDemoLikeAlipay";
+			};
+			name = Debug;
+		};
+		9E43DA5E1BBA87B400D64D6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = InputPasswordDemoLikeAlipayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InputPasswordDemoLikeAlipay.app/InputPasswordDemoLikeAlipay";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E43DA311BBA87B400D64D6A /* Build configuration list for PBXProject "InputPasswordDemoLikeAlipay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E43DA571BBA87B400D64D6A /* Debug */,
+				9E43DA581BBA87B400D64D6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E43DA591BBA87B400D64D6A /* Build configuration list for PBXNativeTarget "InputPasswordDemoLikeAlipay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E43DA5A1BBA87B400D64D6A /* Debug */,
+				9E43DA5B1BBA87B400D64D6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9E43DA5C1BBA87B400D64D6A /* Build configuration list for PBXNativeTarget "InputPasswordDemoLikeAlipayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E43DA5D1BBA87B400D64D6A /* Debug */,
+				9E43DA5E1BBA87B400D64D6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E43DA2E1BBA87B400D64D6A /* Project object */;
+}
